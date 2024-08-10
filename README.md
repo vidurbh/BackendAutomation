@@ -8,9 +8,7 @@ This project includes a basic framework for API Testing, We have used pytest for
 ## Installation
 To get started with this, clone the repository and install the dependencies:
 
-git clone 
-
-
+git clone https://github.com/vidurbh/BackendAutomation.git
 
 # After the repo is cloned, run setup.bat with the following command
 
@@ -24,7 +22,10 @@ git clone
 To run the test cases, a few sample test cases are added in the `TestCases` folder. The following commands can be used for running them:
 
 ```sh
- 
+pytest -s -v .\TestCases\test_viewusers.py --html=Reports/report.html
+pytest -s -v .\TestCases\test_createUser.py --html=Reports/report.html
+pytest -s -v .\TestCases\test_deleteUser.py --html=Reports/report.html
+pytest -s -v .\TestCases\test_updateUser.py --html=Reports/report.html 
 
 # Incase you want to run it through a batch file, you can uncomment the desired command and run it.
 .\run.bat
