@@ -1,4 +1,4 @@
-This project includes a very basic hybrid framework, We have used pytest for running the tests. Code is written in Python
+This project includes a basic framework for API Testing, We have used pytest for running the tests. Code is written in Python and requests library is used
 
 ## Table of Contents
 - [Installation](#installation)
@@ -9,7 +9,6 @@ This project includes a very basic hybrid framework, We have used pytest for run
 To get started with this, clone the repository and install the dependencies:
 
 
-cd flipkart_automation_framework
 
 # After the repo is cloned, run setup.bat with the following command
 
@@ -23,10 +22,7 @@ cd flipkart_automation_framework
 To run the test cases, a few sample test cases are added in the `TestCases` folder. The following commands can be used for running them:
 
 ```sh
-pytest -v -s -m "sanity" --browser Chrome --html=Reports/report.html  
-pytest -v -s .\TestCases\test_selectProduct.py --browser Chrome --html=Reports/report.html  
-pytest -v -s .\TestCases\test_navigate.py --browser Chrome --html=Reports/report.html  
-pytest -v -s .\TestCases\test_productsearch.py --browser Chrome --html=Reports/report.html  
+ 
 
 # Incase you want to run it through a batch file, you can uncomment the desired command and run it.
 .\run.bat
