@@ -8,6 +8,8 @@ This project includes a basic framework for API Testing, We have used pytest for
 ## Installation
 To get started with this, clone the repository and install the dependencies:
 
+git clone 
+
 
 
 # After the repo is cloned, run setup.bat with the following command
