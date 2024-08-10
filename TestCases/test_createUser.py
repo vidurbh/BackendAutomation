@@ -13,7 +13,7 @@ class Testusers:
 
         body = {
         "name": "testingapinewendpoint",
-        "email": "vidubh290@test.com",
+        "email": "vidubhtesting@test.com",
         "gender": "female",
         "status": "active"
         }
@@ -22,7 +22,7 @@ class Testusers:
 
         if response is None:
             self.logger.info("No response received from API. Test case failed.")
-            pytest.fail("No response received from API.")
+            pytest.fail(f"No response received from API.{response}")
         try:
                 data=response.json()
                 print('response data', data)

@@ -60,3 +60,20 @@
 2024-08-10 18:06:16,925 - root - ERROR - An error occurred: assert False
  +  where False = isinstance({'email': 'vidubh99@test.com', 'gender': 'female', 'id': 6940587, 'name': 'testingapinewendpoint', ...}, list)
 2024-08-10 18:06:32,929 - root - INFO - Test Case passed
+2024-08-10 18:35:23,912 - root - ERROR - An error occurred: assert None is not None
+2024-08-10 18:35:46,049 - root - INFO - No response received from API. Test case failed.
+2024-08-10 18:36:32,819 - root - INFO - No response received from API. Test case failed.
+2024-08-10 18:37:09,180 - root - INFO - No response received from API. Test case failed.
+2024-08-10 18:37:33,661 - root - INFO - No response received from API. Test case failed.
+2024-08-10 18:38:47,677 - root - INFO - Failed to receive response from api
+2024-08-10 18:39:01,510 - root - INFO - Test Case Failed since : assert None == 204
+2024-08-10 18:39:38,484 - root - INFO - Test Case passed for create user
+2024-08-10 18:42:51,618 - root - INFO - No response received from API. Test case failed.
+2024-08-10 18:43:25,202 - root - INFO - No response received from API. Test case failed.
+2024-08-10 18:53:52,909 - root - INFO - No response received from API. Test case failed.
+2024-08-10 18:54:15,867 - root - INFO - Test Case passed for create user
+2024-08-10 18:54:49,022 - root - INFO - Test Case Passed
+2024-08-10 20:25:51,547 - root - INFO - Test Case passed
+2024-08-10 20:27:51,771 - root - INFO - Test Case Failed since : assert None == 204
+2024-08-10 20:28:37,123 - root - INFO - Test Case passed for create user
+2024-08-10 20:28:47,052 - root - INFO - No response received from API. Test case failed.

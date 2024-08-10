@@ -4,12 +4,15 @@ from dotenv import load_dotenv
 load_dotenv()
 
 class Config:
-    BASE_URL = os.getenv("BASE_URL", "https://gorest.co.in/public/v2")
+    BASE_URL = os.getenv("BASE_URL")
+    print ("Base URL is", BASE_URL)
     
-    API_KEY = os.getenv("API_KEY", "60d072f307c76009106b5174d6f4567e0521567e668fa89d420a715c82b81d58")
+    API_KEY = os.getenv("API_KEY")
+    print ("API Key is", API_KEY)
+
     
     HEADERS = {
-        "Authorization": "Bearer " + "60d072f307c76009106b5174d6f4567e0521567e668fa89d420a715c82b81d58",
+        "Authorization": f"Bearer {API_KEY}" ,
         "Content-Type": "application/json"
     }
     

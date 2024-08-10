@@ -10,7 +10,7 @@ class TestDeleteUser:
     logger=LogGen.loggen()
     def test_updateUser(self, api_client):
 
-        id=7323581
+        id=7323853
         endpoint=f'users/{id}'
         print ("endpoint is", endpoint)
 
