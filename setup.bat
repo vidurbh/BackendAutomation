@@ -4,7 +4,7 @@ python -m venv venv
 venv\Scripts\activate
 
 :: Install dependencies
-@REM pip install -r requirements.txt
+pip install -r requirements.txt
 
 
 echo Script finished.
