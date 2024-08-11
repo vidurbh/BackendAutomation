@@ -51,13 +51,16 @@ To interact with the GoRest API, you need to generate an API key. Follow these s
 3. **Make a note of it** for use in your configuration.
 
 
-3. Configure the API Key in Your Project
-Add the API Token to your project's configuration (.env.example file).
-Set the BASE_URL for the API in your configuration(.env.example file).
+## Configure the API Key in Your Project
+   - Add the API Token to your project's configuration file (`.env.example`).
+   - Set the `BASE_URL` for the API in your configuration file (`.env.example`).
 
-4. Create .env File
-Copy the .env.example file to a new file named .env. This file will contain your API key and BASE_URL.
-cp .env.example .env
+## Create `.env` File
+   - Copy the `.env.example` file to a new file named `.env`. This file will contain your API key and `BASE_URL`.
+   - Run the following command:
+     ```sh
+     cp .env.example .env
+     ```
 
 Ensure the .env file contains the following configuration:
 BASE_URL=Base_URL
@@ -75,8 +78,7 @@ pytest -s -v .\TestCases\test_updateUser.py --html=Reports/report.html
 # Incase you want to run it through a batch file, you can uncomment the desired command and run it.
 .\run.bat
 
+```
 
 
 
-
-#end of the doc
