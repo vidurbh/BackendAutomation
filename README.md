@@ -16,7 +16,7 @@ git config --global http.postBuffer 1048576000
 
 now navigate to the directory, where it's cloned
 cd .\BackendAutomation\
-
+ 
 # After the repo is cloned, run setup.bat with the following command
 
 .\setup.bat 
@@ -28,18 +28,28 @@ cd .\BackendAutomation\
 API Key Setup for GoRest API
 To interact with the GoRest API, you need to generate an API key. Follow these steps to obtain and configure your API key:
 
-1. Generate API Key
-Login to gorest.co.in using your Google account.
-Click on Howdy in the header.
-Select API Tokens from the dropdown menu.
-Click on New Access Token.
-Provide a Label for your API key and click on Submit.
-After the API token is generated, make a note of it.
+## Generate API Key
 
-2. Find the Base_URL in Gorest
-Go to the home page of gorest.co.in
-Check the base url in Resource section(It should usually end with public/v2 ).
-Make a note of it.
+1. **Login** to [gorest.co.in](https://gorest.co.in/) using your Google account.
+
+2. Click on **Howdy** in the header.
+
+3. Select **API Tokens** from the dropdown menu.
+
+4. Click on **New Access Token**.
+
+5. Provide a **Label** for your API key and click on **Submit**.
+
+6. After the API token is generated, make a note of it.
+
+## Find the Base URL in Gorest
+
+1. **Go to the home page** of [gorest.co.in](https://gorest.co.in/).
+
+2. **Check the base URL** in the Resource section. It should usually end with `public/v2`.
+
+3. **Make a note of it** for use in your configuration.
+
 
 3. Configure the API Key in Your Project
 Add the API Token to your project's configuration (.env.example file).
