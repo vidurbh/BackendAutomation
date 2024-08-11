@@ -18,22 +18,28 @@ git clone https://github.com/vidurbh/BackendAutomation.git
 # To activate the virtual environment, run the following command
 .\venv\Scripts\activate
 
-After the venv is activated, go to https://gorest.co.in/ and sign in with your google account
-There you need to generate the api key to work with different APIs.
-To generate a new api key follow the below mentioned steps:
-1. Login to https://gorest.co.in/ with google account
-2. Click on Howdy in the header
-3. Click on API Tokens
-4. Click on New Access Token
-5. Provide Label and click on Submit
+API Key Setup for GoRest API
+To interact with the GoRest API, you need to generate an API key. Follow these steps to obtain and configure your API key:
 
-After the api token is generated, go to project and add your api token and the BASE_URL 
+1. Generate API Key
+Login to GoRest using your Google account.
+Click on Howdy in the header.
+Select API Tokens from the dropdown menu.
+Click on New Access Token.
+Provide a Label for your API key and click on Submit.
+After the API token is generated, make a note of it.
 
+2. Configure the API Key in Your Project
+Add the API Token to your project's configuration.
+Set the BASE_URL for the API in your configuration.
 
-go to terminal and copy the .env.example file to a env file named '.env'
+3. Create .env File
+Copy the .env.example file to a new file named .env. This file will contain your API key and BASE_URL.
+cp .env.example .env
 
-
-
+Ensure the .env file contains the following configuration:
+BASE_URL=Base_URL
+API_KEY=your_generated_api_key
 
 ## Usage
 To run the test cases, a few sample test cases are added in the `TestCases` folder. The following commands can be used for running them:
